@@ -27,7 +27,7 @@ Pothole-detector-Location-Clustering/
 
 ## 🧠 Clustering Visualization Example
 
-![Pothole map](https://github.com/your_username/Pothole-detector-Location-Clustering/blob/master/Output/pothole_map.png)
+![Pothole map](https://github.com/pranavv11/Pothole-detector-Location-Clustering/blob/master/Output/pothole_map.png)
 
 > Each cluster is color-coded and interactive. Clicking on a marker reveals image data and coordinates.
 

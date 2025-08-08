@@ -1,6 +1,6 @@
 # Pothole Detector - Location Clustering
 
-This project identifies potholes from images, extracts their geolocation, and clusters them using unsupervised learning. It then visualizes these clusters on an interactive **Folium map** for easy city-level monitoring and analysis.
+This project identifies potholes from images, extracts their geolocation, and clusters them using DBSCAN algorithms. It then visualizes these clusters on an interactive **Folium map** for easy city-level monitoring and analysis.
 
 ---
 
@@ -8,7 +8,7 @@ This project identifies potholes from images, extracts their geolocation, and cl
 
 - Detect potholes using a trained deep learning model.
 - Extract geolocations (GPS metadata or manually provided).
-- Cluster nearby potholes using algorithms like **KMeans** or **DBSCAN**.
+- Cluster nearby potholes using **DBSCAN** algorithm
 - Visualize clusters on a **Folium map** with interactive marker groups and color-coded clusters.
 
 ---
@@ -37,10 +37,10 @@ Pothole-detector-Location-Clustering/
 
 - **Python**
 - **Folium** for interactive map rendering
-- **Scikit-learn** for clustering (KMeans/DBSCAN)
+- **Scikit-learn** for clustering (DBSCAN)
 - **OpenCV** & **Pillow** for image handling
-- **YOLOv8/YOLOv5** (in `Model/`) for pothole detection
-- **Jupyter / Google Colab** for experiments
+- **YOLOv8** (in `Model/`) for pothole detection
+- **Google Colab** for experiments
 
 ---
 ## 📦 Installation
